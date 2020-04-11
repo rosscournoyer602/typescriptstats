@@ -9,7 +9,7 @@ const matchReader = new MatchReader(csvFileReader);
 matchReader.load();
 
 const evertonWinSummary = new Summary(
-  new WinsAnalysis('Newcastle'), 
+  new WinsAnalysis('Everton'), 
   new ConsoleReport()
 );
 
